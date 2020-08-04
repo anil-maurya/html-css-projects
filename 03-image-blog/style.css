@@ -1,0 +1,19 @@
+h3 {
+   font-family: 'Raleway', 'Courier New', Courier, monospace;
+   margin-left: 1.6%;
+   text-transform: uppercase;
+   border-bottom: solid gray 1px;
+   width: 30%;
+   padding-bottom: 10px;
+}
+
+body{
+    margin: auto;
+}
+
+img {
+    height: 23%;
+    width: 23%;
+    float: left;
+    margin: 1%;
+}

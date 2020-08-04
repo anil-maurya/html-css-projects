@@ -1,0 +1,241 @@
+html,
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#header{
+    display: flex;
+    background-color: #eee;
+    justify-content: space-around;
+    /* margin-top: 15px; */
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 15px 5px;
+    top: 0;
+    /* left: 0; */
+}
+
+#logo{
+    /* align-items: left; */
+    /* height: 20px; */
+    width: 60%;
+}
+#nav-bar{
+    width: 40%;
+}
+ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+}
+li a{
+    color: black;
+}
+
+#logo img{
+    height: 35px;
+}
+
+.nav-link{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-weight: 600;
+}
+#email{
+    max-width: 250px;;
+    width: 100%;
+    height: 25px;
+    padding-left: 5px;
+    /* background-color: white; */
+    border: 1px solid #b3adad;
+}
+
+#submit{
+    margin: 10px 0;
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+    height: 30px;;
+    width: 50%;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    max-width: 150px;
+}
+
+.container{
+   max-width: 1000px;
+   width: 100%;
+   margin: 0 auto;
+   /* background-color: #f1c40f; */
+}
+
+.feature{
+    margin-top: 30px;
+}
+.grid {
+    display: flex;
+    margin: 50px 0;
+}
+.icon{
+    width: 20vw;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkorange;
+}
+
+.desc{
+    width: 80vw;
+   
+}
+.desc h2{
+    margin: 0;
+    /* pading: 0; */
+}
+.desc p{
+    margin: 0;
+    padding: 0;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    height: 315px;
+}
+
+.video iframe{
+    max-width: 560px;
+    width: 100%;
+    /* height: 100%; */
+}
+
+#pricing{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.price-box{
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+}
+.box-header{
+    background: #ddd;
+    padding: 20px 0;
+    justify-content: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box-body ol{
+    list-style: none;
+    text-align: center;
+}
+.btn{
+    background-color: #f1c40f;
+    width: 39%;
+    height: 35px;
+    margin: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #ddd;
+    /* height: 110px; */
+    padding: 20px;
+    margin-top: 60px;
+    text-align: right;
+}
+
+footer ul{
+    justify-content: flex-end;
+    margin: 5px;
+    /* display: flex;
+    list-style: none;
+    
+    /* flex-direction: row; */
+}
+footer span{
+    font-size: 0.9em;
+    color: #444;
+}
+footer ul li{
+    margin: 0 10px;
+}
+
+@media (max-width: 800px){
+    #pricing{
+        flex-direction: column;
+        justify-content: center;
+        /* width: 40%; */
+    }
+
+    .price-box{
+        /* width: 40%; */
+        min-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+
+    }
+}
+
+@media (max-width: 550px){
+    #header{
+        /* display: block; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    #logo {
+        width: 100%; 
+    }
+    #nav-bar{
+        width: 100%;
+    }
+
+    #nav-bar ul{
+        display: block;
+        padding: 0;
+        /* text-align: center; */
+    }
+
+    #hero{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .grid{
+        text-align: center;
+    }
+    .icon{
+        display: none;
+    }
+    .desc{
+        width: 100%;
+    }
+    
+}

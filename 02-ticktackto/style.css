@@ -1,0 +1,24 @@
+body {
+	background-color: "#FFF"
+}
+
+table {
+	margin: auto;
+}
+td {
+	width: 80px;
+	height: 80px;
+}
+
+#middle {
+	border : solid rgba(73, 69, 69, 0.767) 1px;
+}
+.horizontal {
+	border-top : solid rgba(73, 69, 69, 0.767) 1px;
+	border-bottom : solid rgba(73, 69, 69, 0.767) 1px;
+}
+
+.vertical {
+	border-left : solid rgba(73, 69, 69, 0.767) 1px;
+	border-right : solid rgba(73, 69, 69, 0.767) 1px;
+}
